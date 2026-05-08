@@ -12,6 +12,9 @@ int main(){
         reverse(s.begin(),s.begin()+s.length()/2);
         cout<<s<<endl;
     }
-    
+    if( s.length() > 5){
+        reverse(s.begin() + 2,s.begin() + 6);
+        cout<<s<<endl;
+    }
     return 0;
 }
