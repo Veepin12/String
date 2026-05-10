@@ -25,7 +25,8 @@ int main(){
     for( int i = 1; i < v.size(); i++){
         if(v[i] == v[i -1]) count++;
         else count = 1;
-        maxcount = max(maxcount,count);
+
+        maxcount = max(maxscount,count);
         
 
     }
